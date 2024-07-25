@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Bank.css">
+</head>
+<body>
+    <div class="login-area">
+    <h1 class="bank-title">Welcome to Transaction</h1>
+    <div class="form">
+        <h3>Login</h3>
+        <input type="text" placeholder="Email" class="form1" >
+        <br/>
+        <br/>
+        <input type="password" placeholder="password" class="form1" required>
+        <br/>
+        <br/>
+        <button class="btn" id="login">Enter</button>
+       
+
+  </div>
+    </div>
+
+    <div class='area'>
+        <h1 class="area-header">Transaction Area</h1>
+        <div class="transaction-area">
+            <div class="deposit same">
+             <h2>Deposit</h2>
+             <h3>$<span class="current-deposit">00</span></h3>
+            </div>
+            <div class="withdraw same">
+           <h2>Withdraw</h2>
+           <h3>$<span class="current-withdraw">00</span></h3>
+            </div>
+            <div class="balance same">
+          <h2>Balance</h2>
+          <h3>$<span class="current-balance">1024</span></h3>
+            </div>
+        </div>
+        <div class="transaction-area1">
+            <div class="Deposit same1">
+                <h2>Deposit</h2>
+                <input type="text" placeholder="$amount you want to deposit" id="deposit">
+                <br/>
+                <br/>
+                <button class="addDeposit">deposit</button>
+            </div>
+            <div class="Withdraw same1">
+                <h2>Withdraw</h2>
+                <input type="text" placeholder="$amount you want to withdraw" id="withdraw">
+                <br/>
+                <br/>
+                <button class="addWithdraw">withdraw</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="Bank.js"></script>
+</body>
+</html>

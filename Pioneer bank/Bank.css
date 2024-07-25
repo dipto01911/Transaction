@@ -1,0 +1,102 @@
+body{
+    padding: 100px;
+}
+.bank-title{
+    text-align: center;
+}
+.form{
+   
+    width: 80%;
+    border: 2px solid white;
+    margin: 0 auto; 
+    padding: 10px;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 10px;
+}
+.form1{
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.form .btn{
+    padding: 10px;
+    margin-left: 20px;
+    background-color: rgba(0, 128, 0, 0.554);
+   
+    border-radius: 10px;
+    cursor: pointer;
+}
+.ex{
+    display: none;
+}
+.ex1{
+    display: block;
+}
+.area{
+    display: none;
+  
+}
+.transaction-area{
+    
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    width: 80%;
+}
+.area-header{
+    margin-top: -50px;
+    margin-bottom: 50px;
+    color: green;
+}
+.same{
+    height: 100px;
+    width: 200px;
+    border: 2px solid white;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 10px;
+}
+.deposit{
+    background-color: rgba(255, 0, 0, 0.31);
+}
+.withdraw{
+    background-color: rgba(165, 42, 42, 0.382);
+}
+.balance{
+    background-color: rgba(210, 105, 30, 0.594);
+}
+.transaction-area1{
+    display: flex;
+    width: 80%;
+    margin-top: 50px;
+gap: 30px;
+justify-content: center;
+}
+.Deposit{
+    height: 140px;
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(95, 158, 160, 0.49);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+}
+.Withdraw{
+    height: 140px;
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(100, 148, 237, 0.351);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.same1 input{
+    width: 100%;
+    padding: 5px;
+}
+.same1 button{
+    padding: 7px;
+    background-color: green;
+    border-radius: 5px;
+    cursor: pointer;
+}
